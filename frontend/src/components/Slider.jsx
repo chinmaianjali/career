@@ -5,17 +5,19 @@ const slides = [
   {
     id: 1,
     image: "https://via.placeholder.com/800x400?text=Slide+1",
-    caption: "Welcome to our Content Prediction System!",
+    caption: "Welcome to our Career Prediction System!",
   },
   {
     id: 2,
     image: "https://via.placeholder.com/800x400?text=Slide+2",
-    caption: "Use our tool to get insights into your content reach.",
+    caption: "Utilize our tool to gain insights into your career path potential and opportunities."
+,
   },
   {
     id: 3,
     image: "https://via.placeholder.com/800x400?text=Slide+3",
-    caption: "Simply fill in the details and predict your metrics.",
+    caption: "Enter your academic scores, preferences, and interests to receive personalized career predictions and insights."
+,
   },
 ];
 

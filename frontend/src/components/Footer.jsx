@@ -150,7 +150,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="footer-bottom">
-        &copy; 2024 Thakur. All Rights Reserved.
+        &copy; 2024 Team-tech. All Rights Reserved.
       </div>
     </>
   );

@@ -72,32 +72,29 @@ const HowItWorks = () => {
             </div>
             <h4>Create an Account</h4>
             <p>
-              Sign up for a free account as a job seeker or employer. Set up
-              your profile in minutes to start posting jobs or applying for
-              jobs. Customize your profile to highlight your skills or
-              requirements.
+              Sign up for a free account. Set up your profile and explore more features of our website.
+              Customize your profile to a get more detailed analysis of career predictions.  
             </p>
           </Link>
           <Link to="/jobs" className="card">
             <div className="icon">
               <VscTasklist />
             </div>
-            <h4>Post or Browse Jobs</h4>
+            <h4>Post and Predict</h4>
             <p>
-              Employers can post detailed job descriptions, and job seekers can
-              browse a comprehensive list of available positions. Utilize
-              filters to find jobs that match your skills and preferences.
-            </p>
+               Input your academic scores, Preferences, Interests and your personality traits to get probabilities
+               of different career zones suitable to you.
+               Where you get to know further related proffessions.            </p>
           </Link>
           <Link to="/predict" className="card">
             <div className="icon">
               <BiSolidLike />
             </div>
-            <h4>Predict your Content</h4>
+            <h4>Know your Mentor</h4>
             <p>
-              Employers can shortlist candidates and extend job offers. Job
-              seekers can review job offers and accept positions that align with
-              their career goals.
+              You can select a specific mentor according to your interest areas. Watch their videos
+               and earn points . Use these earned points to personally schedule interactions
+               Domain Experts.
             </p>
           </Link>
         </div>

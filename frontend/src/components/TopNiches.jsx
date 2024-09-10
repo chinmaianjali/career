@@ -4,45 +4,45 @@ const TopNiches = () => {
   const services = [
     {
       id: 1,
-      service: "Tech Reviews and Tutorials",
+      service: "STEM",
       description:
-        "Covering the latest gadgets, software reviews, tech news, and how-to guides.",
-      url: "https://www.wisestamp.com/partners/",
+        "Science, Technology, Engineering, Mathematics",
+      url: "https://www.livescience.com/43296-what-is-stem-education.html",
     },
     {
       id: 2,
-      service: "Gaming",
+      service: "Commerce and Finance",
       description:
-        "Including game reviews, gameplay walkthroughs, live streaming, and eSports commentary.",
-      url: "https://vidiq.com/blog/post/tips-creating-youtube-gaming-channel/",
+        "Insights into careers in accounting, finance, Business Manegment and  Entrepreneurship",
+      url: "https://www.investopedia.com/terms/c/commerce.asp",
     },
     {
       id: 3,
-      service: "Travel and Adventure",
+      service: "Arts and Hummanities",
       description:
-        "Content about travel experiences, destination guides, adventure activities, and travel tips.",
-      url: "https://greatcontent.com/travel-content-ideas/",
+        "Careers in Literature, History, Psychology. Opportunities in Media, Journalism, Teaching, Law",
+      url: "https://www.melioeducation.com/blog/introduction-to-arts-and-humanities/#:~:text=Put%20simply%2C%20Arts%20and%20Humanities,%2C%20history%2C%20language%20and%20culture.",
     },
     {
       id: 4,
-      service: "DIY and Crafts",
+      service: "Vocational and Skill-Based careers",
       description:
-        "Tutorials and projects related to home improvement, crafts, and creative hobbies.",
-      url: "https://www.goodhousekeeping.com/home/craft-ideas/g32336151/adult-craft-ideas/",
+        "Hospitality, Tourism, Fasion Design, Culinary Arts and Diploma courses",
+      url: "https://in.indeed.com/career-advice/career-development/vocational-training",
     },
     {
       id: 5,
-      service: "Food and Cooking",
+      service: "Creative and Performing Arts",
       description:
-        "Recipes, cooking techniques, food reviews, and culinary experiences.",
-      url: "https://example.com/food",
+        "Music, Dance, Filmmaking, Theater, Animation, Graphic design",
+      url: "https://www.tidegloballearning.net/secondary/creative-and-performing-arts",
     },
     {
       id: 6,
-      service: "Education and E-Learning",
+      service: "Sports and Physical Education",
       description:
-        "Creating educational content, online courses, and tutorials on various subjects.",
-      url: "https://example.com/education",
+        "Careers in sports management, coaching, athletics and fitness training",
+      url: "https://www.olympusacademy.org.uk/teaching-and-learning/sport-and-performing-arts/",
     },
   ];
 

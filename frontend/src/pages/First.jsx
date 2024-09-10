@@ -11,7 +11,7 @@ const Slide1 = () => (
     <Card>
       <TextContent>
         <h2>Welcome to Our App</h2>
-        <p>Discover a new way to manage your content effortlessly.</p>
+        <p>Turn your passion into a thriving career.Identify your comfort zones based on strengths and interest areas. </p>
       </TextContent>
       <img
         src="https://images.unsplash.com/photo-1673648954658-212203f00a0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGNvbnRlbnQlMjBjcmVhdG9yfGVufDB8fDB8fHww"
@@ -27,7 +27,7 @@ const Slide2 = () => (
       <TextContent>
         <h2>Explore Features</h2>
         <p>
-          From content creation to analytics, find all you need in one place.
+          From career counselling to personal mentorship programs.
         </p>
       </TextContent>
       <img
@@ -37,8 +37,21 @@ const Slide2 = () => (
     </Card>
   </Slide>
 );
-
 const Slide3 = () => (
+  <Slide>
+    <Card>
+      <TextContent>
+        <h2>Get Started Today</h2>
+        <p>Sign up now! Start watching videos by mentors and earn points.</p>
+      </TextContent>
+      <img
+        src="https://images.unsplash.com/photo-1642491068210-943797352958?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGNvbnRlbnQlMjBjcmVhdG9yfGVufDB8fDB8fHww"
+        alt="Get Started"
+      />
+    </Card>
+  </Slide>
+);
+const Slide4 = () => (
   <Slide>
     <Card>
       <TextContent>
@@ -63,11 +76,9 @@ const FeatureSection = () => (
           alt="Predict Reach"
         />
         <div>
-          <h3>Predict Your Reach</h3>
+          <h3>Predict Your Career path</h3>
           <p>
-            Use machine learning to forecast the potential reach of your
-            content. Input your subscribers, average views, and content type to
-            get accurate predictions.
+            Use machine learning to shape your future. Input your interests, preferences, and your personality traits to get accurate predictions.
           </p>
         </div>
       </FeatureCard>
@@ -79,11 +90,10 @@ const FeatureSection = () => (
           alt="Generate Content"
         />
         <div>
-          <h3>Generate Content</h3>
+          <h3>Engaging Videos </h3>
           <p>
-            Leverage AI to generate engaging content for blogs, social media,
-            and more. Enhance your content strategy with our advanced NLP
-            algorithms.
+            Explore engaging content like career guidance videos by Domain Experts.
+            Go a step ahead by earning points in pop-up questions.
           </p>
         </div>
       </FeatureCard>
@@ -95,11 +105,11 @@ const FeatureSection = () => (
           alt="Hire Team"
         />
         <div>
-          <h3>Hire Your Team</h3>
+          <h3>Personal Mentorship</h3>
           <p>
-            Find and hire professionals like video editors to expand your team.
-            Post job listings and review applications to build the perfect team
-            for your content needs.
+            Find and interact with professionals and Domain Experts to enhance your career.
+            Spend your earned points to hire a Personal Mentor.
+            
           </p>
         </div>
       </FeatureCard>

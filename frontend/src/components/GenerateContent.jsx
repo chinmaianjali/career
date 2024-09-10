@@ -9,36 +9,43 @@ const GenerateContent = () => {
 
   const predefinedPrompts = [
     {
-      heading: "The Impact of AI on Content Creation",
+      heading: "AI-Powered Career Quizzes: Find Your Dream Job!",
       description:
-        "Explore how artificial intelligence is transforming content creation and enhancing productivity in digital marketing.",
+        "Take our fun, AI-driven career quiz to discover which profession suits you best. Uncover hidden career paths based on your interests and skills!",
+      interaction: "Try the quiz and share your results with friends to compare career matches!"
     },
     {
-      heading: "Trends in Content Marketing for 2024",
+      heading: "Virtual Reality Career Exploration: Step Into Your Future!",
       description:
-        "Discover the latest trends in content marketing and strategies to stay ahead in the digital landscape.",
+        "Experience career options through immersive VR simulations. Explore different job environments and see what it’s like to work in your dream field before making a decision!",
+      interaction: "Join our live VR career tour and vote for the job that intrigues you the most!"
     },
     {
-      heading: "Leveraging Data Analytics for Content Strategy",
+      heading: "Career Myths Busted: What’s True and What’s Not?",
       description:
-        "Learn how to use data analytics to inform and optimize your content strategy for better engagement and results.",
+        "Participate in our interactive myth-busting session where we debunk common career myths and reveal the truth about various professions.",
+      interaction: "Submit your career myths and vote on which ones we should debunk next!"
     },
     {
-      heading: "The Role of Personalization in Content Creation",
+      heading: "Personal Branding Makeover Challenge!",
       description:
-        "Understand the importance of personalized content and how to create tailored experiences for your audience.",
+        "Join our challenge to create a standout personal brand using fun tools and templates. Get tips on crafting a unique resume, LinkedIn profile, and more!",
+      interaction: "Share your before-and-after personal branding makeover and get feedback from peers and experts!"
     },
     {
-      heading: "Emerging Content Formats and Their Benefits",
+      heading: "Future Career Predictions: What Will You Be Doing in 2030?",
       description:
-        "Stay updated on new content formats such as interactive videos and podcasts, and their advantages for audience engagement.",
+        "Engage in a futuristic career prediction game where you guess and discuss potential job roles and industries that could emerge by 2030.",
+      interaction: "Submit your own career predictions and see how they stack up against others' forecasts!"
     },
     {
-      heading: "Building Brand Authority Through Content",
+      heading: "Skill Swap: Trade Your Talents with Others!",
       description:
-        "Strategies for using content to establish and reinforce your brand’s authority in your industry.",
+        "Participate in a skill swap event where you exchange career skills and knowledge with other students. Learn new skills and offer your expertise in return!",
+      interaction: "Post your skills and see who’s interested in swapping! Don’t forget to share your experiences with the community."
     },
   ];
+
 
   useEffect(() => {
     const savedHistory =

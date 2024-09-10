@@ -38,17 +38,17 @@ const Applications = () => {
       {loading ? (
         <Spinner />
       ) : applications && applications.length <= 0 ? (
-        <h1>You have no applications from job seekers.</h1>
+        <h1>You have no applications from students.</h1>
       ) : (
         <>
           <div className="account_components">
-            <h3>Applications For Your Posted Jobs</h3>
+            <h3>Applications For Your College</h3>
             <div className="applications_container">
               {applications.map((element) => {
                 return (
                   <div className="card" key={element._id}>
                     <p className="sub-sec">
-                      <span>Job Title: </span> {element.jobInfo.jobTitle}
+                      <span>Role: </span> {element.jobInfo.jobTitle}
                     </p>
                     <p className="sub-sec">
                       <span>Applicant's Name: </span>{" "}
@@ -73,12 +73,7 @@ const Applications = () => {
                         rows={5}
                         disabled
                       ></textarea>
-                      <span>hobbies</span>
-                      <textarea
-                        value={element.jobSeekerInfo.hobbies}
-                        rows={1}
-                        disabled
-                      ></textarea>
+                     
                     </p>
 
                     <div className="btn-wrapper">

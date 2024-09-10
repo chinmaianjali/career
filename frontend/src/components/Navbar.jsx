@@ -26,9 +26,9 @@ const Navbar = () => {
             alt="logo"
           />
           <h2>
-            Wcontent <br />
+            CareerBuddy<br />
             <span>
-              <h6>Welcome to the world of Creators!!</h6>
+              <h6>Buddy's guide to a better career!!</h6>
             </span>
           </h2>
         </Logo>

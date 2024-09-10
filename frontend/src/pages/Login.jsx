@@ -43,7 +43,7 @@ const Login = () => {
       <section className="auth-page">
         <div className="auth-container">
           <div className="auth-info">
-            <h3>Welcome to Wcontent</h3>
+            <h3>Welcome to CareerBuddy</h3>
             <p>
               Login with your email and password to access your account. and
               enjoy the experience.
@@ -66,8 +66,8 @@ const Login = () => {
                     onChange={(e) => setRole(e.target.value)}
                   >
                     <option value="">Select Role</option>
-                    <option value="Employer">Login as an Employer</option>
-                    <option value="Job Seeker">Login as a Job Seeker</option>
+                    <option value="Employer">Login as a College Admin</option>
+                    <option value="Job Seeker">Login as a Student</option>
                   </select>
                   <FaRegUser className="input-icon" />
                 </div>

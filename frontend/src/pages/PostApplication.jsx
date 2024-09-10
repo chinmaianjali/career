@@ -118,7 +118,7 @@ const PostApplication = () => {
       <ApplicationForm onSubmit={handlePostApplication}>
         <h3>Application Form</h3>
         <FormGroup>
-          <label>Job Title</label>
+          <label>Role</label>
           <input type="text" placeholder={singleJob.title} disabled />
         </FormGroup>
         <FormGroup>

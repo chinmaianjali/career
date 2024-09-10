@@ -146,7 +146,7 @@ const Jobs = () => {
                 onChange={(e) => setSearchKeyword(e.target.value)}
                 placeholder="Search by keyword..."
               />
-              <button onClick={handleSearch}>Find Job</button>
+              <button onClick={handleSearch}>Find College</button>
               <FaSearch />
             </SearchBar>
             <JobList>
@@ -158,14 +158,12 @@ const Jobs = () => {
                         Hiring Multiple Candidates
                       </p>
                     ) : (
-                      <p className="hiring-status single-candidate">Hiring</p>
+                      <p className="hiring-status single-candidate">College</p>
                     )}
                     <p className="job-title">{job.title}</p>
                     <p className="company-name">{job.companyName}</p>
                     <p className="job-location">{job.location}</p>
-                    <p className="job-salary">
-                      <span>Salary:</span> Rs. {job.salary}
-                    </p>
+                   
                     <p className="job-posted">
                       <span>Posted On:</span> {job.jobPostedOn.substring(0, 10)}
                     </p>

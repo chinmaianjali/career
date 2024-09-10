@@ -44,7 +44,7 @@ const MyApplications = () => {
         <Spinner />
       ) : applications && applications.length <= 0 ? (
         <h1 style={{ fontSize: "1.4rem", fontWeight: "600" }}>
-          You have not applied for any job.
+          You have not applied to any college.
         </h1>
       ) : (
         <div className="account-components">
@@ -53,7 +53,7 @@ const MyApplications = () => {
             {applications.map((element) => (
               <div className="application-card" key={element._id}>
                 <p className="application-detail">
-                  <span>Job Title: </span> {element.jobInfo.jobTitle}
+                  <span>Role: </span> {element.jobInfo.jobTitle}
                 </p>
                 <p className="application-detail">
                   <span>Name: </span> {element.jobSeekerInfo.name}
